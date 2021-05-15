@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+​
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+​
+    <title>Lattitude: Humidity</title>
+​   <style>
+      .dropbtn {background-color: #04AA6D; color: white; font-size: 16px; border: none;}
+      .dropdown-item{}    
+      .dropdown-content { display: none; background-color: #f1f1f1;}
+      .dropdown:hover .dropdown-content {display: block;}
+    
+    </style>
+  </head>
+
+  <body>
+    
+	<div class="navigation">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="index.html">Lattitude</a>
+             <button class="navbar-toggler border" type="button" data-toggle="collapse" data-target="#Dropdown"
+                aria-controls="Dropdown" aria-expanded="false" aria-label="Toggle navigation">
+            </button>
+            <li class="nav-item">
+          <div style="float:right">
+			      <a class="nav-link" href="comparison.html">Comparison</a>
+          </div>
+			  </li>
+        <li class="nav-item">
+          <div style="float:right">
+			      <a class="nav-link" href="data.html">Data</a>
+          </div>
+        </li>
+        <div class="collapse" id="Dropdown">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+             <div style="float:right">
+              <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" id="rDropdownMenuLink" role="button" aria-haspopup="true" aria-expanded="false">Plots</a>
+               <div class="dropdown-content" aria-labelledby="DropdownMenuLink">
+                <a class="dropdown-item" href="temp.html">Max Temperature</a>
+                <a class="dropdown-item" href="humidity.html">Humidity</a>
+                <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                <a class="dropdown-item" href="wind.html">Wind Speed</a>
+               </div>
+            </li>
+            
+             </div>
+			      </li>
+          </ul>
+        </div>
+        </nav>
+    </div>
+
+    <div class="container">
+      <section class="row">
+        <div class="col-lg-7 col-md-12">
+          <div class="description-content">
+            <h1 class="description-header">Humidity</h1>
+            <hr>
+            <img src="Resources/assets/images/Fig2.png" alt="Latitude vs. Humidity">
+            <p>No significant correlation between humidity and latitude can be seen from this graph, with the addition of a larger sample size more trends might be present or easier to notice.</p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+	</body>
+​
+</html>
